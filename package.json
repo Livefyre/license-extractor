@@ -1,0 +1,25 @@
+{
+  "name": "license-extractor",
+  "version": "1.0.0",
+  "description": "Extracts license text from dependencies",
+  "main": "index.js",
+  "bin": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Livefyre/license-extractor.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Livefyre/license-extractor/issues"
+  },
+  "homepage": "https://github.com/Livefyre/license-extractor#readme",
+  "dependencies": {
+    "async": "^2.4.1",
+    "license-checker": "^11.0.0",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "npm-license-crawler": "^0.1.5",
+    "request": "^2.81.0"
+  }
+}
